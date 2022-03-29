@@ -13,11 +13,11 @@ import java.util.Random;
 public class GameController {
     public static boolean checkIsHit(Collection<Ship> ships, Position shot) {
         if (ships == null) {
-            throw new IllegalArgumentException("ships is null");
+            throw new IllegalArgumentException("ships is null.");
         }
 
         if (shot == null) {
-            throw new IllegalArgumentException("shot is null");
+            throw new IllegalArgumentException("shot is null.");
         }
 
         for (Ship ship : ships) {
